@@ -1,0 +1,1778 @@
+#body{
+    font-family: 'cabin condensed,sans-serif';
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*headers*/
+
+#top-bar {
+    height: 37px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f78e1e;
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+#name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    height: 35px;
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #ffffff;
+   
+}
+
+#social{
+    height: 30px;
+    width: 100;
+    margin-left: 170px;
+    color: #ffffff;
+    top: 5px;
+    left: 15;
+    position: fixed;
+}
+
+#menu-header-div{
+    margin-top: -15px;
+    margin-left: 1268px; 
+    display:flex; 
+}
+
+#menu-header{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+} 
+
+.menu{
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    display: inline;
+    font-size: 15px;
+    padding-right: 22px;
+}
+
+#citrus{
+    height: 70px;
+    width: 100%;
+    margin-top: 29px;
+    margin-left: -15;  
+    /*background-color: #000000;*/
+    position: fixed;
+    background-color: #ffffff;
+}
+
+#logo{
+    height: 50px;
+    width: 10;
+    margin-top: 10px;
+    margin-left: 10;
+}
+
+#navigation{
+    margin-top: -50px;
+    margin-left: 1000px; 
+    position: fixed;
+    display:flex; 
+    /*background-color: #a41e1e;*//*make white*/
+    text-transform: uppercase;
+}
+
+.navi{
+    padding-right: 45px;
+    list-style: none;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+.navi:hover{
+    color: #f78e1e;
+}
+
+.navi-hover{
+    padding-right: 45px;
+    list-style: none;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+}
+
+.navi-hover:hover{
+    color: gray;
+}
+
+.grid-item{
+  visibility: hidden;
+}
+
+.grid-item-hover{
+  visibility: hidden;
+}
+
+
+.slider1{
+  width: 100%;
+  height: 900px;
+  background-image: url("citrus.jpg");
+  animation: slide1 40s infinite;
+}
+
+@keyframes slide1 {
+  25% {
+    background-image: url("citrus1.jpg");
+  }
+  50% {
+    background-image: url("was1.jpg");
+  }
+  75% {
+    background-image: url("hik.jpg");
+  }
+  100% {
+    background-image: url("citrus.jpg");
+  }
+}
+
+.welcome{
+  margin-top: 50px;
+  padding: 50px 0;
+  /*background-color: #745353;*/
+  display: flex;
+}
+.container-welcome{
+  width: 970px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-welcome1{
+  margin-top: -100px;
+  margin-right: -15px;
+  margin-left: -15px;
+  /*background-color: #3e8646;*/
+  color: #333;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#journey{
+  /*background-color: #7d2c89;*/
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: -10;
+}
+
+
+.welcome h1{
+  margin-bottom: 25px;
+  /*background-color: #2c4289;*/
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+
+.welcome-to-citrus {
+  margin-top: 0;
+  /*background-color: #2c4289;*/
+  text-align: center;
+}
+
+.h1, h1 {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.welcome strong {
+  color: #f78e1e;
+}
+
+#vid{
+  background-color: #ffecda;
+  margin-top: 20px;
+  width: 100%;
+  height: 550px;
+}
+
+.vid{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.table{
+  position: inherit;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.table{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.table strong {
+  color: #f78e1e;
+}
+.table-text{
+  margin-top: 50px;
+  font-size: 40px;
+}
+.table-header{
+  margin-bottom: 50px;
+}
+.td img{
+  width: 300px;
+  height: 100px;
+}
+.thead{
+  background-color: #dd72004f;
+}
+.table-body{
+  background-color: #cf985d7e;
+}
+
+/*all footers*/
+
+#footer-main{
+  width: 100%;
+  height: 320px;
+  background-color: #ffecda;
+}
+
+#list-content{
+  margin-left: 5%;
+}
+
+#navi-footer{
+  list-style: none;
+  padding-top: 50px;
+  font-size: 16px;
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.navi-footer{
+  margin-left: 2%;
+}
+
+.navi-footer1{
+  margin-left: 35%;
+}
+
+.navi-footer2{
+  margin-left: 10%;
+}
+
+#email{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 45px;
+  margin-left: 4%;
+}
+
+.type-email{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: -31%;
+}
+
+.type-email:hover{
+  background-color: #e2e2e2;
+  text-transform: lowercase;
+  border: none;
+  letter-spacing: 1px;
+  text-indent: 5%;
+}
+
+.signup{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -14%;
+  width: 90px;
+  height: 50px;
+  background-color: #f78e1e;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
+.signup:hover{
+  background-color: #d77812;
+}
+
+#footer-citrus-hotels{
+  width: 200px;
+  height: auto;
+  margin-left: 43%;
+  margin-top: -25px;
+  display: flex;
+}
+
+.footer-citrus-hotels{
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: left;
+}
+
+.list-footer{
+  padding-bottom: 15px;
+}
+
+#leisure{
+  width: 200px;
+  height: auto;
+  margin-left: 60%;
+  margin-top: -120px;
+  display: flex;
+}
+
+.leisure{
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: left;
+}
+
+.leisure-list{
+  padding-bottom: 13px;
+}
+
+#contact{
+  width: 200px;
+  height: auto;
+  margin-left: 80%;
+  margin-top: -170px;
+  display: flex;
+}
+
+.contact{
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: left;
+}
+
+.con-list{
+  padding-bottom: 13px;
+}
+
+#copyr{
+  color: grey;
+  font-size: 13px;
+  margin-left: 35%;
+  margin-top: 40px;
+}
+
+/*home page*/
+
+#citrus-hotels-home{
+  margin-top: -8px;
+  height: 85;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#hotels-button{
+  margin-top: 3px;
+}
+
+.hotels{
+  margin-left: 9%;
+  height: 10px;
+  width: 100%;
+  list-style: none;
+  display: inline;
+}
+
+.buttons-hotels{
+  background-color: #ffffff;
+}
+
+.buttons-hotels:hover{
+  background-color: #f78e1e; 
+  float: fixed;
+}
+
+#line{
+  position: fixed;
+  margin-top: 105px;
+  background-color: #c5c3c3;
+  width: 100%;
+  height: 1px;
+}
+
+#bar{
+  position: fixed;
+  margin-top: 106px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 8%;
+}
+
+#home-navi{
+  position: fixed;
+  margin-top: -5px;
+  margin-left: 170px;
+  width: 100%;
+  height: 40px;
+}
+
+.home-navi{
+  display: flex;
+  list-style: none;
+  font-weight: bold; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: #827e78;
+}
+
+.home-navi-list{
+  margin-left: 25%;
+  padding-right: 75px;
+  align-content: center;
+  color: #827e78;
+}
+
+.home-navi-list:hover{
+  color: #f78e1e;
+}
+
+.grid-container1{
+  visibility: hidden;
+}
+
+.slider2{
+  width: 100%;
+  height: 800px;
+  background-image: url("citrus.jpg");
+  animation: slide1 40s infinite;
+}
+
+@keyframes slide1 {
+  20% {
+    background-image: url("citrus1.jpg");
+  }
+  40% {
+    background-image: url("was1.jpg");
+  }
+  60% {
+    background-image: url("hik.jpg");
+  }
+  80% {
+    background-image: url("hik.jpg");
+  }
+  100% {
+    background-image: url("citrus.jpg");
+  }
+}
+
+#explore{
+  margin-top: 30px;
+  padding: 50px 0;
+  width: auto;
+  height: 500px;
+  /*background-color: #745353;*/
+}
+#ex-img1{
+  position: inherit;
+  width: 50%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+#ex-img2{
+  position: inherit;
+  margin-top: 40px;
+  margin-left: 870px;
+}
+
+.explore{
+  /*background-color: #7d2c89;*/
+  font-size: 40px;
+  text-align: center;
+  margin-top: -200px;
+  margin-left: 700px;
+  /*background-color: #b10b0b;*/
+  color: #333;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.discover .h1{
+  margin-bottom: 25px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#ex-dis {
+  margin-top: -60px;
+  /*background-color: #2c893b;*/
+  text-align: right;
+  margin-right: 300px;
+  text-transform: uppercase;
+}
+
+#h1, h1 {
+  font-size: 66px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.discover strong {
+  color: #f78e1e;
+
+}
+
+#para{
+  width: auto;
+  height: auto;
+  margin-left: 1030px;
+  margin-right: 100px;
+  /*background-color: #827e78;*/
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+#line1{
+  position: fixed;
+  margin-top: 100px;
+  background-color: #c5c3c3;
+  width: 100%;
+  height: 1px;
+}
+
+#adventures{
+  margin-top: -325px;
+  width: 100%;
+  zoom: 125%;
+  /*background-color: #ffecda;*/
+  background-image: url("adfor1.jpg");
+}
+
+.ad{
+  padding-top: 30px;
+  width: 100%;
+  height: 200px;
+  margin-top: 380px;
+  margin-left: 40%;
+  color: #f78e1e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.ad1{
+  margin-top: -150px;
+  width: 100%;
+  height: 20px;
+  background-color: transparent;
+  margin-left: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#ad-was{
+  margin-top: 100px;
+  width: 100%;
+  height: 2050px;
+  background-color: #ffffff;
+}
+
+.hr-a{
+  margin-top: -25px;
+}
+
+#was-ad-txt{
+  width: 450px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 550px;
+  background-color: transparent;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.cit-a{
+  color: #f78e1e;
+}
+
+#adven-was{
+  width: 70%;
+  height: 1200px;
+  margin-top: 10px;
+  margin-left: 220px;
+  background-color: transparent;
+}
+
+
+.ad1-img{
+  width: 45%;
+  height: 300px;
+  margin-top: 330px;
+  margin-left: -50px;
+}
+
+.ad-img{
+  margin-top: 150px; 
+  width: 50%;
+  height: 25%;
+  margin-left: -15%;
+}
+
+.ad2-img{
+  width: 35%;
+  height: 15%;
+  margin-left: 110px;
+  margin-top: -25px;
+}
+
+#ad2-img{
+  margin-left: -20px;
+}
+
+.ad1-txt{
+  width: 40%;
+  height: 180px;
+  margin-top: -1000px;
+  margin-left: 750px;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hik-ad-txt{
+  width: 450px;
+  height: 50px;
+  margin-top: 700px;
+  margin-left: 555px;
+  /*background-color: #5e5964;*/
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+#adven-hik{
+  width: 70%;
+  height: 1400px;
+  margin-top: 60px;
+  margin-left: 220px;
+  /*background-color: #601414;*/
+}
+
+.ad2-txt{
+  width: 70%;
+  height: 180px;
+  margin-left: -100px;
+  margin-top: -20px;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ad12-img{
+  margin-left: 300px;
+  margin-top: -250px; 
+  width: 375px;
+  height: 400px;
+}
+
+#ad13-img{
+  margin-top: -180px;
+  margin-left: -150px;
+}
+
+.ad13-img{
+  width: 47%;
+  height: 300px;
+}
+
+#ad11-img{
+  margin-left: 42%;
+  margin-top: 40px;
+}
+
+.ad11-img{
+  width: 60%;
+  height: 200px;
+}
+
+.ad3-txt{
+  width: 40%;
+  height: 180px;
+  margin-top: -410px;
+  margin-left: 72%;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ad4-txt{
+  width: 30%;
+  height: 180px;
+  margin-top: 250px;
+  margin-left: 45%;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#map11{
+  margin-top: 20px;
+  margin-left: -150px;
+}
+
+#map12{
+  margin-top: 30px;
+  margin-left: -150px;
+}
+
+#map13{
+  margin-top: -30px;
+  margin-left: -150px;
+}
+
+#map14{
+  margin-top: 30px;
+  margin-left: -150px;
+}
+
+/*booking page*/
+
+.booking{
+  width: 100%;
+  height: 1000px;
+  margin-left: -8px;
+}
+
+.bg-img{
+  width: 100%;
+  height: 110%;
+  zoom: 110%;
+  background-image: url("image3.jpg");
+  margin-top: -57px;
+  /*zoom: 110%;*/
+}
+
+#space{
+  width: 200px;
+  height: 100px;
+  margin-top: 150px;
+}
+
+.form1{
+  margin-top: -70px;
+  margin-left: 70px;
+  width: 92%;
+  height: 94%;
+  background-color: #dbd0d0c4;
+  border-radius: 10px;
+}
+
+.topic{
+  width: 500px;
+  height: 50px;
+  margin-top: -930px;
+  margin-left: 34%;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
+  color: #f78e1e;
+}
+
+#book{
+  width: 500px;
+  height: 50px;
+  margin-top: -680px;
+  margin-left: 250px;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
+  color: black;
+}
+
+.table-form{
+  margin-top: -600px;
+  margin-left: 8%;
+  margin-right: 300px;
+  padding-right: 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  /*backdrop-filter: blur(7px);*/
+  background-color: #79787569;
+}
+
+#td{
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
+#tdnew{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#form-cit{
+  color: #f78e1e;
+}
+
+#form-cit1{
+  color: #61259e;
+}
+
+.input-form{
+  height: 25px;
+  width: 400px;
+  background-color: #f1d7bc8f;
+}
+.input-formpromo{
+  height: 20px;
+  width: 120px;
+  background-color: #f1d7bc8f;
+}
+
+.book-now{
+  width: 140px;
+  height: 50px;
+  background-color: #f78e1e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: -60%;
+  margin-left: 76%;
+}
+.book-now:hover{
+  background-color: #d77812;
+}
+
+.bg-img1{
+  width: 140%;
+  height: 840px;
+  background-image: url("adfor1.jpg");
+  margin-top: 100px;
+}
+
+.form2{
+  margin-top: -40px;
+  margin-left: 3%;
+  width: 66%;
+  height: 720px;
+  background-color: #dbd0d0c4;
+  border-radius: 10px;
+}
+
+.topic1{
+  width: 500px;
+  height: 50px;
+  margin-top: -700px;
+  margin-left: 500px;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
+  color: #f78e1e;
+}
+
+.table-form1{
+  margin-top: -800px;
+  margin-left: 18%;
+  width: 60%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  /*backdrop-filter: blur(7px);*/
+  background-color: #79787569;
+}
+
+.table-formnew{
+  margin-top: 60px;
+  margin-left: 70%;
+  width: 380px;
+  height: 600px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  /*backdrop-filter: blur(7px);*/
+  background-color: #79787569;
+}
+
+.topic-orange{
+  color: #d77812;
+}
+
+.table-formnew1{
+  margin-top: -3%;
+  margin-left: 70%;
+  width: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  /*backdrop-filter: blur(7px);*/
+  background-color: #79787569;
+}
+
+.book-now1{
+  width: 300px;
+  height: 50px;
+  background-color: #f78e1e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 35px;
+  margin-left: 45%;
+}
+
+.book-now1:hover{
+  background-color: #d77812;
+}
+
+.input-form{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  width: 280px;
+}
+#confirm2{
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 500px;
+  background-color: #dbd0d0c4;
+  border-radius: 10px;
+  text-align: center;
+}
+.REFBTN{
+  width: 200px;
+  height: 25px;
+  background-color: #f78e1e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+#confirm2 td{
+  border: solid black 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive styles for screens smaller than 1600px */
+  @media only screen and (max-width: 1600px) {
+    #menu-header-div {
+      margin-left: 1000px;
+    }
+    
+    #navigation {
+      margin-left: 500px;
+      padding-right: 90px;
+      font-size: 25px;
+    }
+
+    #email{
+      visibility: hidden;
+    }
+
+    .navi-footer{
+      visibility: hidden;
+    }
+
+    .navi-footer1{
+      margin-left: 1%;
+    }
+
+    #footer-citrus-hotels{
+      margin-left: 2%;
+    }
+
+    #leisure{
+      margin-left: 25%;
+    }
+
+    #contact{
+      margin-left: 55%;
+    }
+
+    #copyr{
+      margin-left: 25%;
+    }
+
+    #citrus-hotels-home{
+      zoom: 90%;
+    }
+    .grid-container1 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      visibility: hidden; 
+      background-color: #da2b2b;
+      padding: 8px;
+      margin-top: 170px;
+      margin-left: 50px;
+    }
+      
+    .grid-item1 {
+      margin-top: 50px;
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+      visibility: visible;
+      padding-right: 22px;
+      list-style: none;
+      display: inline;
+      font-size: 19px;
+      font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:gray;
+    }
+        
+    .grid-item1:hover{
+      color: #f78e1e;
+    }
+  
+    .grid-item1{
+      visibility: visible;
+    }
+  
+    #home-navi{
+      visibility: hidden;
+    }
+  
+    #bar{
+      visibility: hidden;
+    }
+
+    .slider2{
+      zoom: 85%;
+    }
+
+    #ex-img1{
+      zoom: 80%;
+    }
+
+    #ex-img2{
+      zoom: 80%;
+      margin-left: 800px;
+    }
+
+    #para{
+      margin-left: 800px;
+      margin-right: 10px;
+    }
+    
+    #ex-dis {
+      margin-left: 800px;
+    }
+
+    .ad1-txt{
+      margin-left: auto;
+      margin-top: -1040px;
+    }
+
+    #was-ad-txt{
+      margin-left: 300px;
+    }
+
+    .ad1-img{
+      width: 60%;
+      height: 300px;
+    }
+
+    .ad-img{
+      margin-left: -150px;
+    }
+
+    #map11{
+      zoom: 80%;
+      margin-left: -23%;
+    }
+
+    #map12{
+      zoom: 80%;
+      margin-left: -23%;
+    }
+
+    #map13{
+      zoom: 80%;
+      margin-left: -23%;
+    }
+
+    #map14{
+      zoom: 80%;
+      margin-left: -23%;
+    }
+
+    .ad12-img{
+      margin-left: 30%;
+      zoom: 80%;
+    }
+  }
+
+  /* Responsive styles for screens smaller than 1200px */
+  @media only screen and (max-width: 1200px) {
+    #menu-header-div {
+      margin-left: 800px;
+    }
+    
+    #navigation {
+      margin-left: 200px;
+      display: flex;
+      margin-top: -70px;
+    }
+
+    .slider{
+      zoom: 60%;
+      margin-top: 200px; 
+    }
+
+    .menu{
+      visibility: hidden;
+    }
+
+    .vid{
+      zoom: 80%;
+    }
+
+    #copyr{
+      margin-left: 10%;
+    }
+
+    /*home*/
+
+    .hotels{
+      margin-left: 80px;
+    }
+
+    #citrus-hotels-home{
+      zoom: 90%;
+    }
+
+    .slider2{
+      zoom: 65%;
+    }
+
+    #ex-img1{
+      zoom: 70%;
+      margin-left: 70px;
+    }
+
+    #ex-img2{
+      zoom: 80%;
+      margin-left: 650px;
+    }
+
+    #para{
+      margin-left: 650px;
+      margin-right: 10px;
+    }
+    
+    #ex-dis {
+      margin-left: 650px;
+    }
+
+    .explore{
+      margin-left: 450px;
+    }
+
+    #was-ad-txt{
+      margin-left: auto;
+    }
+
+    .ad1-img{
+      height: 200px;
+      margin-top: 450px;
+      margin-left: -80px;
+    }
+
+    .ad-img{
+      height: 20%;
+    }
+
+    .ad2-img{
+      margin-left: -50px;
+    }
+
+    #map11{
+      zoom: 60%;
+      margin-left: -400px;
+      margin-top: 170px;
+    }
+
+    #map12{
+      zoom: 60%;
+      margin-left: -400px;
+    }
+
+    #map13{
+      zoom: 60%;
+      margin-left: -400px;
+    }
+
+    #map14{
+      zoom: 60%;
+      margin-left: -400px;
+    }
+
+  }
+   
+/* Responsive styles for screens smaller than 1000px */
+
+@media only screen and (max-width: 1000px) {
+  .table{
+    zoom: 70%;
+  }
+
+  #vid{
+    zoom: 80%;
+  }
+
+  
+  /*home*/
+
+  .hotels{
+    margin-left: 30px;
+  }
+
+  #citrus-hotels-home{
+    zoom: 80%;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    visibility: hidden; 
+    background-color: #da2b2b;
+    padding: 8px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+    
+  .grid-item1{
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    visibility: visible;
+    padding-right: 22px;
+    list-style: none;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:gray;
+  }
+      
+  .grid-item1:hover{
+    color: #f78e1e;
+  }
+
+  .grid-item1{
+    visibility: visible;
+  }
+
+  #home-navi{
+    visibility: hidden;
+  }
+
+  #bar{
+    visibility: hidden;
+  }
+
+  #line{
+    visibility: hidden;
+  }
+
+  #ex-img1{
+    zoom: 50%;
+    margin-left: 50px;
+  }
+
+  #ex-img2{
+    zoom: 70%;
+    margin-left: 550px;
+  }
+
+  #para{
+    margin-left: 450px;
+    margin-right: 10px;
+  }
+  
+  #ex-dis {
+    margin-left: 450px;
+    zoom: 80%;
+  }
+
+  .explore{
+    margin-left: 450px;
+    zoom: 80%;
+  }
+
+  #was-ad-txt{
+    margin-left: auto;
+  }
+
+  .ad-img{
+    margin-left: -200px;
+    height: 150px;
+  }
+
+  .ad1-txt{
+    zoom: 80%;
+    margin-top: -1300px;
+    margin-left: 400px;
+  }
+
+  .ad2-img{
+    visibility: hidden;
+  }
+
+  .ad1-img{
+    margin-left: -391px;
+    margin-top: 330px;
+  }
+
+  #hik-ad-txt{
+    margin-left: auto;
+  }
+
+  .ad2-txt{
+    zoom: 90%;
+    margin-left: 400px;
+  }
+
+  .ad4-txt{
+    zoom: 90%;
+    margin-left: 200px;
+  }
+
+}
+
+/* Responsive styles for screens smaller than 800px */
+
+@media only screen and (max-width: 800px) {
+  .table{
+    zoom: 70%;
+  }
+
+  #vid{
+    zoom: 70%;
+  }
+
+  #ex-img1{
+    zoom: 50%;
+    margin-left: 50px;
+  }
+
+  #ex-img2{
+    visibility: hidden;
+  }
+
+  #para{
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  
+  #ex-dis {
+    margin-left: 50px;
+    zoom: 80%;
+
+  }
+
+  .explore{
+    margin-left: -200px;
+    zoom: 80%;
+    margin-top: 250px;
+  }
+
+}
+
+
+/* Responsive styles for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  #top-bar {
+    display: block;
+  }
+  
+  .social {
+    margin-left: 10px;
+  }
+
+  .menu{
+    visibility: hidden;
+  }
+  
+  .menu-header-div {
+    margin-left: 10px;
+  }
+  
+  .menu-header {
+    flex-direction: column;
+  }
+  
+  #menu {
+    padding-right: 10px;
+  }
+
+  #name {
+    width: 80%;
+    margin-left: 10px;
+  }
+  
+  #social {
+    margin-left: 180px;
+  }
+  
+  #menu-header-div {
+    margin-left: 10px;
+  }
+
+  #navigation{
+    visibility: hidden;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    visibility: visible; 
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 180px;
+    margin-top: -50px;
+  }
+    
+  .grid-item {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    visibility: visible;
+  }
+
+  .grid-item{
+    padding-right: 45px;
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+  }
+      
+  .grid-item:hover{
+    color: #f78e1e;
+  }
+      
+  .grid-item-hover{
+    padding-right: 45px;
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+    margin-left: 10px;
+  }
+      
+  .grid-item-hover:hover{
+    color: gray;
+  }
+
+  .grid-item{
+    visibility: visible;
+  }
+
+  .grid-item-hover{
+    visibility: visible;
+  }
+
+  .slider1{
+    margin-top: 100px;
+    zoom: 40%;
+  }
+
+  #vid{
+    zoom: 70%;
+  }
+
+  .table{
+    zoom: 50%;
+  }
+
+  #footer-main{
+    zoom: 50%;
+  } 
+
+  .navi-footer{
+    margin-left: -50px;
+  }
+  
+  .navi-footer1{
+    margin-left: 260px;
+  }
+
+  .navi-footer2{
+    margin-left: 150px;
+  }
+
+  #email{
+    visibility: hidden;
+  }
+
+  .type-email{
+    margin-left: -700px;
+    margin-top: -10px;
+    visibility: visible;
+  }
+
+  .signup{
+    visibility: visible;
+    margin-left: -400px;
+    margin-top: -10px;
+  }
+  
+  #footer-citrus-hotels{
+    margin-left: 380px;
+  }
+
+  #leisure{
+    margin-left: 600px;
+  }
+
+  #contact{
+    margin-left: -50px;
+    margin-top: -110px;
+  }
+
+  #copyr{
+    color: grey;
+    font-size: 13px;
+    margin-left: 220px;
+    margin-top: -30px;
+  }
+
+  /*home*/
+
+  #citrus-hotels-home{
+    zoom: 73%;
+  }
+
+  #line{
+    visibility: hidden;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    visibility: hidden; 
+    background-color: #da2b2b;
+    padding: 8px;
+    margin-top: 150px;
+  }
+    
+  .grid-item1 {
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    visibility: visible;
+    padding-right: 22px;
+    list-style: none;
+    display: inline;
+    font-size: 17px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:gray;
+  }
+      
+  .grid-item1:hover{
+    color: #f78e1e;
+  }
+
+  .grid-item1{
+    visibility: visible;
+  }
+
+  #home-navi{
+    visibility: hidden;
+  }
+
+  #bar{
+    visibility: hidden;
+  }
+
+  .slider2{
+    margin-top: auto;
+    zoom: 40%;
+  }
+
+  #line1{
+    visibility: hidden;
+  }
+  
+  .ad{
+    margin-left: 20%;
+    margin-top: 450px;
+  }
+
+  .ad-img{
+    width: 80%;
+    margin-left: -230px;
+  }
+
+  .ad1-img{
+    margin-top: 350px;
+    margin-left: -315px;
+    width: 80%;
+  }
+  
+  .ad1{
+    margin-left: 40%;
+  }
+  
+  #was-ad-txt{
+    zoom: 85%;
+    margin-left: 7%;
+  }
+
+  .ad1-txt{
+    margin-left: auto;
+  }
+  
+  #map11{
+    margin-top: 350px;
+    height: 250px;
+    width: 900px;
+  }
+
+  #map12{
+    height: 250px;
+    width: 900px;
+  }
+
+  #hik-ad-txt{
+    zoom: 85%;
+    margin-top: 180%;
+    margin-left: 7%;
+  }
+
+  .ad2-txt{
+    margin-left: -14%;
+  }
+  .ad13-img{
+    height: auto;
+    margin-left: -6em;
+    margin-top: 8%;
+  }
+
+  .ad12-img{
+    height: auto;
+    margin-left: -18em;
+    zoom: 60%;
+    margin-top: -165%;
+  }
+
+  .ad4-txt{
+    margin-left: -80%;
+    margin-top: -100%;
+    width: 60%;
+  }
+
+  .ad11-img{
+    visibility: hidden;
+  }
+
+  .ad3-txt{
+    margin-left: -5%;
+    margin-top: 100%;
+    width: 60%;
+    zoom: 90%;
+  }
+  
+  #map13{
+    margin-top: 50%;
+    height: 250px;
+    width: 900px;
+  }
+
+  #map14{
+    height: 250px;
+    width: 900px;
+  }
+
+}

@@ -1,0 +1,371 @@
+#body{
+    font-family: 'cabin condensed,sans-serif';
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*headers*/
+
+#top-bar {
+    height: 37px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f78e1e;
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+#name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    height: 35px;
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #ffffff;
+   
+}
+
+#social{
+    height: 30px;
+    width: 100;
+    margin-left: 170px;
+    color: #ffffff;
+    top: 5px;
+    left: 15;
+    position: fixed;
+}
+
+#menu-header-div{
+    margin-top: -15px;
+    margin-left: 1268px; 
+    display:flex; 
+}
+
+#menu-header{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+} 
+
+.menu{
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    display: inline;
+    font-size: 15px;
+    padding-right: 22px;
+}
+
+#citrus{
+    height: 70px;
+    width: 100%;
+    margin-top: 29px;
+    margin-left: -15;  
+    /*background-color: #000000;*/
+    position: fixed;
+    background-color: #ffffff;
+}
+
+#logo{
+    height: 50px;
+    width: 10;
+    margin-top: 10px;
+    margin-left: 10;
+}
+
+#navigation{
+    margin-top: -50px;
+    margin-left: 1000px; 
+    position: fixed;
+    display:flex; 
+    /*background-color: #a41e1e;*//*make white*/
+    text-transform: uppercase;
+}
+
+.navi{
+    padding-right: 45px;
+    list-style: none;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+.navi:hover{
+    color: #f78e1e;
+}
+
+.navi-hover{
+    padding-right: 45px;
+    list-style: none;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+}
+
+.navi-hover:hover{
+    color: gray;
+}
+
+.grid-item{
+  visibility: hidden;
+}
+
+.grid-item-hover{
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.booking{
+    margin-top: 400px;
+}
+
+#space{
+    width: 200px;
+    height: 100px;
+    margin-top: 150px;
+}
+
+/* Container for the form */
+#bookingForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #bb4141;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form elements */
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+select, input[type="number"], input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Confirmation message */
+#confirmation {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Booking Information */
+#bookingInfo {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #bookingForm {
+      margin: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  select, input[type="number"], input[type="text"] {
+      width: 100%;
+  }
+}
+
+
+
+
+
+
+
+/*all footers*/
+
+#footer-main{
+    width: 100%;
+    height: 320px;
+    background-color: #ffecda;
+  }
+  
+  #list-content{
+    margin-left: 5%;
+  }
+  
+  #navi-footer{
+    list-style: none;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+  }
+  
+  .navi-footer{
+    margin-left: 2%;
+  }
+  
+  .navi-footer1{
+    margin-left: 35%;
+  }
+  
+  .navi-footer2{
+    margin-left: 10%;
+  }
+  
+  #email{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-left: 4%;
+  }
+  
+  .type-email{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: -31%;
+  }
+  
+  .type-email:hover{
+    background-color: #e2e2e2;
+    text-transform: lowercase;
+    border: none;
+    letter-spacing: 1px;
+    text-indent: 5%;
+  }
+  
+  .signup{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -14%;
+    width: 90px;
+    height: 50px;
+    background-color: #f78e1e;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .signup:hover{
+    background-color: #d77812;
+  }
+  
+  #footer-citrus-hotels{
+    width: 200px;
+    height: auto;
+    margin-left: 43%;
+    margin-top: -25px;
+    display: flex;
+  }
+  
+  .footer-citrus-hotels{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+  }
+  
+  .list-footer{
+    padding-bottom: 15px;
+  }
+  
+  #leisure{
+    width: 200px;
+    height: auto;
+    margin-left: 60%;
+    margin-top: -120px;
+    display: flex;
+  }
+  
+  .leisure{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+  }
+  
+  .leisure-list{
+    padding-bottom: 13px;
+  }
+  
+  #contact{
+    width: 200px;
+    height: auto;
+    margin-left: 80%;
+    margin-top: -170px;
+    display: flex;
+  }
+  
+  .contact{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+  }
+  
+  .con-list{
+    padding-bottom: 13px;
+  }
+  
+  #copyr{
+    color: grey;
+    font-size: 13px;
+    margin-left: 35%;
+    margin-top: 40px;
+  }
