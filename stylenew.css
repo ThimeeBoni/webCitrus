@@ -1039,25 +1039,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Responsive styles for screens smaller than 1600px */
   @media only screen and (max-width: 1600px) {
     #menu-header-div {
@@ -1205,7 +1186,37 @@
       margin-left: 30%;
       zoom: 80%;
     }
-  }
+
+    .table-form{
+      zoom: 80%;
+    }
+
+    .table-formnew{
+      zoom: 80%;
+      margin-top: 200px;
+    }
+
+    
+    .table-formnew1{
+      zoom: 80%;
+    }
+
+    .book-now{
+      zoom: 110%;
+      margin-left: 300px;
+    }
+
+    .form1 {
+      margin-top: -70px;
+      margin-left: 70px;
+      width: 92%;
+      height: 94%;
+    }
+
+    .fav{
+      zoom: 120%;
+      margin-left: 340px;
+    }
 
   /* Responsive styles for screens smaller than 1200px */
   @media only screen and (max-width: 1200px) {
@@ -1310,6 +1321,51 @@
     #map14{
       zoom: 60%;
       margin-left: -400px;
+    }
+
+    .topic1{
+      margin-left: 200px;
+    }
+
+    .table-form{
+      width: 250px;
+      margin-left: 150px;
+    }
+
+    .table-form1{
+      width: 800px;
+      margin-left: 150px;
+    }
+
+    .table-formnew{
+      zoom: 80%;
+      margin-left: 800px;
+      width: 350px;
+    }
+
+    .table-formnew1{
+      zoom: 80%;
+      margin-left: 800px;
+      width: 350px;
+      margin-top: -100px;
+    }
+
+    .book-now{
+      zoom: 110%;
+      margin-left: 300px;
+    }
+
+    .form1 {
+      margin-top: -70px;
+      margin-left: 70px;
+      width: 92%;
+      height: 94%;
+    }
+
+    .fav{
+      zoom: 120%;
+      margin-left: 640px;
+      margin-top: -20px;
     }
 
   }
@@ -1792,5 +1848,71 @@
     height: 250px;
     width: 900px;
   }
+
+  .topic1{
+    margin-left: 75px;
+    zoom: 60%;
+    margin-top: -1180px;
+  }
+
+  .topic{
+    margin-left: 77px;
+    zoom: 60%;
+    margin-top: -1520px;
+  }
+
+  .table-form{
+    width: 250px;
+    margin-left: 0px;
+    margin-top: -1050px;
+  }
+
+  .table-form1{
+    width: 250px;
+    margin-left: -10px;
+    zoom: 80%;
+    margin-top: -1050px;
+  }
+
+  .table-formnew{
+    zoom: 80%;
+    margin-left: 80px;
+    width: 350px;
+    height: 20%;
+    margin-top: 850px;
+  }
+
+  .table-formnew1{
+    zoom: 80%;
+    margin-left: 80px;
+    width: 350px;
+    margin-top: 300px;
+  }
+
+  .book-now{
+    zoom: 110%;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+
+  .form1 {
+    margin-top: -70px;
+    margin-left: 20px;
+    width: 92%;
+    height: 94%;
+  }
+
+  .fav{
+    zoom: 100%;
+    margin-left: 167px;
+    margin-top: 20px;
+  }
+
+  .book-now1{
+    zoom: 110%;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+}
 
 }
